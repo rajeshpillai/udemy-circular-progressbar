@@ -1,0 +1,66 @@
+body {
+  font-family:arial,sans-serif;
+ }
+ 
+ .heading {
+   text-align: center;
+ }
+
+ .container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+ .container div {
+   box-sizing: border-box;
+   width: 220px;
+   height: 250px;
+   padding: 10px;
+   border: 1px dashed skyblue;
+   margin: 20px;
+ }
+
+ .slider {
+   width: 100%;
+ }
+
+ .progress {
+   fill: none;
+   animation: progress 1s ease-out forwards;
+ }
+
+ @keyframes progress {
+   0% {
+     stroke-dasharray: 0 100;
+   }
+ }
+
+ .progress-text {
+   font-size: 0.9em;
+   font-weight: bold;
+ }
+
+ .progress-red {
+   stroke: #FF2400;
+ }
+
+ .progress-text-red {
+   fill: #ff2400;
+ }
+
+ .progress-blue {
+   stroke: #42C0FB;
+ }
+
+ .progress-text-blue {
+  stroke: #42C0FB;
+ }
+
+ .progress-green {
+   stroke: #03a87c;
+ }
+
+ .progress-text-green {
+   fill: #03a87c;
+ }
